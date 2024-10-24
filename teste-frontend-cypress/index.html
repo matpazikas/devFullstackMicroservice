@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <a class="btn btn-primary position-absolute top-0 end-0 m-2" href="lista.html">Lista de Produtos</a>
+    <div class="container mt-5 w-25 rounded p-4 border">
+      <h2 class="text-center mb-4">Cadastro de Produto</h2>
+      <form id="registerForm">
+        <div class="form-group mb-3">
+          <label for="registerName">Nome</label>
+          <input type="text" class="form-control" id="registerName" required />
+        </div>
+        <div class="d-flex">
+            <div class="form-group mb-3 me-3">
+              <label for="registerPrice">Preço (R$)</label>
+              <input
+                type="number"
+                class="form-control"
+                id="registerPrice"
+                required
+                step="0.01"
+                min="0"
+              />
+            </div>
+            <div class="form-group mb-3">
+              <label for="registerQtt">Estoque</label>
+              <input
+                min="1"
+                step="1"
+                type="number"
+                class="form-control"
+                id="registerQtt"
+                required
+              />
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          Cadastrar
+        </button>
+      </form>
+    </div>
+    <div class="mt-3 d-flex flex-column align-items-center">
+        <h5>Integrantes</h5>
+        <p>Marcelo Amarante Cintra | RM 94705</p>
+        <p>Matheus Pazikas de Almeida | RM 94463</p>
+    </div>
+    <script>
+      document
+        .getElementById("registerForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const id = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")).length + 1 : 1;
+          const name = document.getElementById("registerName").value;
+          const price = document.getElementById("registerPrice").value;
+          const qtt = document.getElementById("registerQtt").value;
+          const date = new Date();
+
+          const products = JSON.parse(localStorage.getItem("products")) || [];
+          products.push({ id, name, price, qtt, date });
+          localStorage.setItem("products", JSON.stringify(products));
+
+          alert("Produto cadastrado com sucesso!");
+          window.location.href = "lista.html";
+        });
+    </script>
+  </body>
+</html>

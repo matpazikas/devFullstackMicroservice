@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mathe\\source\\repos\\apiProduto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4323BC2A-12DA-43A7-AF06-F9FFFE6D4A2C}|web-app-performance\\api-produto.csproj|c:\\users\\mathe\\source\\repos\\apiproduto\\web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323BC2A-12DA-43A7-AF06-F9FFFE6D4A2C}|web-app-performance\\api-produto.csproj|solutionrelative:web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323BC2A-12DA-43A7-AF06-F9FFFE6D4A2C}|web-app-performance\\api-produto.csproj|c:\\users\\mathe\\source\\repos\\apiproduto\\web-app-performance\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323BC2A-12DA-43A7-AF06-F9FFFE6D4A2C}|web-app-performance\\api-produto.csproj|solutionrelative:web-app-performance\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\apiProduto\\web-app-performance\\Model\\Produto.cs",
+              "RelativeDocumentMoniker": "web-app-performance\\Model\\Produto.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\apiProduto\\web-app-performance\\Model\\Produto.cs",
+              "RelativeToolTip": "web-app-performance\\Model\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T00:56:18.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\apiProduto\\web-app-performance\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\apiProduto\\web-app-performance\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "web-app-performance\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswF4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T23:28:05.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
